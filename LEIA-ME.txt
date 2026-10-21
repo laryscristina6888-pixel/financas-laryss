@@ -1,0 +1,27 @@
+FINANÇAS — LARYS (PWA)
+========================
+
+Arquivos:
+- index.html: aplicativo
+- manifest.webmanifest: configuração instalável
+- sw.js: cache offline
+- icons/: ícones do aplicativo
+
+IMPORTANTE: para instalar como aplicativo pelo Chrome, publique esta pasta em um endereço HTTPS.
+Abrir index.html diretamente como arquivo não permite instalar um PWA completo.
+
+Opção simples com GitHub Pages:
+1. Crie/entre em uma conta GitHub e crie um repositório público, por exemplo "financas-larys".
+2. Envie TODOS os arquivos desta pasta, mantendo as pastas e nomes.
+3. No repositório, vá em Settings > Pages.
+4. Em Build and deployment, escolha Deploy from a branch, selecione main e /(root), e salve.
+5. Aguarde a publicação e abra o endereço HTTPS fornecido pelo GitHub Pages no Chrome Android.
+6. Menu ⋮ > "Instalar app" ou "Adicionar à tela inicial".
+
+Como usar:
+- Os dados ficam salvos no armazenamento local do navegador/dispositivo.
+- Use "Exportar backup" para baixar um JSON e guarde-o em local seguro.
+- "Importar" restaura uma cópia e substitui os dados existentes.
+- Para sincronizar entre dispositivos ou conectar bancos de verdade é necessário um backend seguro e integração autorizada. Não coloque senhas bancárias no app.
+
+Os lançamentos pré-preenchidos são apenas exemplos e devem ser revisados.
